@@ -15,21 +15,19 @@
   <body>
     <main>
       <form>
-        <div>
-          <label for="name">Full Name:</label>
+          <label for="name">Name:</label>
           <input id="name" type="text" name="name" />
-        </div>
-        <div>
-          <label for="location">Zipcode:</label>
-          <input
-                  id="location"
-                  type="text"
-                  name="zipcode"
-                  autofocus="on"
-                  maxlength="5"
-                  required
-          />
-        </div>
+      </form>
+      <form>
+        <label for="emailAdd">Email:</label>
+        <input
+                id="emailAdd"
+                type="text"
+                name="email"
+                autofocus="on"
+                maxlength="5"
+                required
+        />
       </form>
       <form>
         <label for="form-message">Your message:</label>
@@ -42,7 +40,6 @@
         ></textarea>
       </form>
       <button type="submit">Submit</button>
-      <button type="reset">Reset</button>
     </main>
   </body>
 </html>
